@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/burger_shop
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+  spring:
+    resources:
+      static-locations: file:D:/ICD113/Enterprise/MosBurgers/src/main/resources/uploads/
+    mvc:
+      static-path-pattern: /uploads/**
