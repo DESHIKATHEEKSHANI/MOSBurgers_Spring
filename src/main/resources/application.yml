@@ -6,8 +6,3 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  spring:
-    resources:
-      static-locations: file:D:/ICD113/Enterprise/MosBurgers/src/main/resources/uploads/
-    mvc:
-      static-path-pattern: /uploads/**
